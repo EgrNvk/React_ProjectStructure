@@ -1,5 +1,19 @@
 .footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   margin-top: 24px;
-  padding-top: 24px;
-  background: #f9f9f9;
+  padding: 37px 75px;
+  background: #ffd12e;
+}
+
+.footer-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 21px;
 }
