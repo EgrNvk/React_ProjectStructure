@@ -1,3 +1,15 @@
 .app {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-body {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 358px 1fr;
+  gap: 24px;
+  width: 100%;
+  max-width: 1366px;
+  margin: 24px auto 0;
 }
