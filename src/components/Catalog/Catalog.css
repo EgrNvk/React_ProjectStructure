@@ -3,3 +3,29 @@
   background: #fff;
   border-radius: 10px;
 }
+
+.catalog-sort {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  height: 40px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.catalog-sort-label {
+  margin-right: 7px;
+}
+
+.catalog-sort-link {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.catalog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
