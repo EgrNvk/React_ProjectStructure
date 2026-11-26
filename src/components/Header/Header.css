@@ -1,4 +1,12 @@
 .header {
-  height: 116px;
   background: #ffd12e;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  max-width: 1366px;
+  height: 66px;
+  margin: 0 auto;
 }

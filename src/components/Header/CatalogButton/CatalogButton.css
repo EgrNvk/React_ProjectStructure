@@ -1,0 +1,23 @@
+.catalog-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 44px;
+  padding: 0 10px 0 42px;
+  border: none;
+  border-radius: 10px;
+  background: #2e9cff;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.catalog-button-icon {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  width: 26px;
+  height: 26px;
+}
